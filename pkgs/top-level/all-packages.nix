@@ -3162,6 +3162,8 @@ with pkgs;
 
   cron = isc-cron;
 
+  cronopete = callPackage ../tools/backup/cronopete { };
+
   cudaPackages_10_0 = callPackage ./cuda-packages.nix { cudaVersion = "10.0"; };
   cudaPackages_10_1 = callPackage ./cuda-packages.nix { cudaVersion = "10.1"; };
   cudaPackages_10_2 = callPackage ./cuda-packages.nix { cudaVersion = "10.2"; };
