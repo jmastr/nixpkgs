@@ -2727,6 +2727,8 @@ with pkgs;
 
   cron = isc-cron;
 
+  cronopete = callPackage ../tools/backup/cronopete { };
+
   # Top-level fix-point used in `cudaPackages`' internals
   _cuda = import ../development/cuda-modules/_cuda;
 
