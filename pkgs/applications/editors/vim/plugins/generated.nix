@@ -14386,10 +14386,10 @@ final: prev:
     pname = "vim-go";
     version = "2024-09-24";
     src = fetchFromGitHub {
-      owner = "fatih";
+      owner = "jmastr";
       repo = "vim-go";
-      rev = "ac1fb9611de435d80a6badcf8482cb1428449b10";
-      sha256 = "199zz6b4yj757hy7vygsy9mjws00j0k8vgcy90ndcrl774jpjqfh";
+      rev = "f40cb7b38740960263159ce19571701d69647058";
+      hash = "sha256-L0e83FMimZ6FB/5NV2MEcZOj5jQJ1qGoK/gaA4EfYQI=";
     };
     meta.homepage = "https://github.com/fatih/vim-go/";
   };
