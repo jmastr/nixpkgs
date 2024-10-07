@@ -5632,6 +5632,8 @@ with pkgs;
 
   nixpkgs-pytools = with python3.pkgs; toPythonApplication nixpkgs-pytools;
 
+  nordvpn = callPackage ../applications/networking/nordvpn { };
+
   nostr-rs-relay = callPackage ../servers/nostr-rs-relay { };
 
   notemap = callPackage ../tools/networking/notemap { };
