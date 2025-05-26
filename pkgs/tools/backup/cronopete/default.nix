@@ -34,13 +34,13 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "cronopete";
-  version = "4.16.0";
+  version = "4.18.0";
 
   src = fetchFromGitLab {
     owner = "rastersoft";
     repo = "cronopete";
     rev = finalAttrs.version;
-    hash = "sha256-JIU68vOkanSUgBPJ5p9PJ1RysA/MHX+DUo3eBYQWQ7k=";
+    hash = "sha256-UCYewGxPYq7oZGJ/NZC+rTygGy2+8xNsUBPS7h6+8pE=";
   };
 
   patches = [
