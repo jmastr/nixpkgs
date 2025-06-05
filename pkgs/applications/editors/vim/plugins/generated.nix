@@ -14948,12 +14948,12 @@ final: prev:
 
   vim-go = buildVimPlugin {
     pname = "vim-go";
-    version = "2025-05-27";
+    version = "2022-12-17";
     src = fetchFromGitHub {
       owner = "fatih";
       repo = "vim-go";
-      rev = "68d769bfcdf0ba57af793c6b177a4a9b9b02bdf1";
-      hash = "sha256-Iid3fZOfp7ak1h98DUNs3D+4KKQg6QSQer8SaQrC71Y=";
+      rev = "8c4db1c61432511a3aa55971dabb2171cbcba7b1";
+      hash = "sha256-pls4k8yKW6v4zI9Pz0J1GwQT+4HAIswLNOD8vwuK+eM=";
     };
     meta.homepage = "https://github.com/fatih/vim-go/";
   };
