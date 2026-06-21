@@ -46,6 +46,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   patches = [
     ./fix-hardcoded-paths.patch
+    ./hide.patch
   ];
 
   strictDeps = true;

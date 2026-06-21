@@ -1,0 +1,13 @@
+diff --git a/data/cronopete.desktop b/data/cronopete.desktop
+index d344d00..280e626 100644
+--- a/data/cronopete.desktop
++++ b/data/cronopete.desktop
+@@ -4,7 +4,7 @@ Icon=anacronopete.svg
+ Type=Application
+ Exec=cronopete
+ Hidden=false
+-NoDisplay=false
++NoDisplay=true
+ X-GNOME-Autostart-enabled=true
+ X-GNOME-Autostart-phase=Running
+ Name=Simple backup application
